@@ -19,3 +19,5 @@ After creating your workspace, run `go run main.go` to start the server.
 1. Generate ssh key `ssh-keygen -t rsa-sha2-256 -b 2048`
 1. Copy the generated keygen `cat ~/.ssh/id_rsa.pub`
 1. Paste in your github SSH & GPG Keys in the setting.
+1. Setup your git config email `git config --global user.email "you@example.com"`
+1. Setup your git config user `git config --global user.name "Your Name"`
